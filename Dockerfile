@@ -6,6 +6,6 @@ WORKDIR /app
 
 COPY . .
 
-CMD ["python", "app.py", "runserver", "0.0.0.0:8080"]
+CMD ["python", "app.py"]
 
 EXPOSE 8080
